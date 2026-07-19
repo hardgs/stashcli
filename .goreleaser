@@ -1,0 +1,39 @@
+project_name: stashcli
+
+builds:
+  - env:
+      - CGO_ENABLED=0 
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+
+archives:
+  - format: tar.gz
+    format_overrides:
+      - goos: windows
+        format: zip
+    
+    files:
+      - src: 'stashcli*'
+      - src: 'README.md'
+      - src: 'README_ar.md'
+      - src: 'README_fa.md'
+      - src: 'settings.json'
+
+checksum:
+  name_template: 'checksums.txt'
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+
+
+release:
+  github:
+    owner: hardgs
+    name: stashcli
