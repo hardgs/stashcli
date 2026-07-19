@@ -18,7 +18,6 @@ archives:
         format: zip
     
     files:
-      - src: 'stashcli*'
       - src: 'README.md'
       - src: 'README_ar.md'
       - src: 'README_fa.md'

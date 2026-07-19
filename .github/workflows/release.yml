@@ -23,11 +23,15 @@ jobs:
         with:
           go-version: '1.24'
       
+      # ADD THIS DEBUG STEP TO SEE THE FILES IN THE RUNNER
+      - name: List all files in runner
+        run: ls -la
+
       - name: Run Go Releaser
         uses: goreleaser/goreleaser-action@v5
         with:
           version: latest
           distribution: goreleaser
-          args: release --clean
+          args: release --clean --debug 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
