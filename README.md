@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # stashcli — Cloud Storage With Telegram
 # [فارسی](README_fa.md) | [عربي](README_ar.md) | [EN](README.md)
 Store, sync, and stream your files using your own Telegram account as the
@@ -214,7 +215,7 @@ proxy — see the `proxy` field documented in `configs.go`, or set
 `"proxy": {"type": "system"}` in `settings.json` to auto-detect your OS's
 configured SOCKS proxy (Windows and Linux/GNOME/KDE are supported).
 
-## License
-
-Add your license of choice here (MIT is a common, permissive pick for
-personal-use CLI tools).
+=======
+# stashcli
+Unlimited Storage? With Easy Access? stashcli
+>>>>>>> 1d154355bca52357d00dea86f92f4d2098bb8ae7
