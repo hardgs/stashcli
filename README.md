@@ -215,6 +215,9 @@ proxy — see the `proxy` field documented in `configs.go`, or set
 `"proxy": {"type": "system"}` in `settings.json` to auto-detect your OS's
 configured SOCKS proxy (Windows and Linux/GNOME/KDE are supported).
 
+## Who Write?
+Me and Claude
+
 =======
 # stashcli
 Unlimited Storage? With Easy Access? stashcli
