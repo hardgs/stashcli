@@ -1,0 +1,18 @@
+{
+  "uploadchunksize": 471859200,
+  "api_id":2040,
+  "api_hash":"b18441a1ff607e10a989891a5462e627",
+  "parral_download": 4,
+  "parral_upload": 4,
+  "cache_max_size_mb": 200,
+  "cache_expire_days": 7,
+  "proxy": null,
+  "upload_bandwidth_limit_kbps": 0,
+  "download_bandwidth_limit_kbps": 0,
+  "operation_timeout_sec": 0,
+  "keepalive_interval_sec": 0,
+  "stream_addr": "127.0.0.1",
+  "stream_port": 8081,
+  "stream_user": "",
+  "stream_pass": ""
+}
