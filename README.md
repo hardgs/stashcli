@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 # stashcli — Cloud Storage With Telegram
 # [فارسی](README_fa.md) | [عربي](README_ar.md) | [EN](README.md)
+
 Store, sync, and stream your files using your own Telegram account as the
 storage backend. Mount it as an FTP or WebDAV drive, or just use the
 command line — files are split into encrypted chunks and uploaded as
@@ -217,8 +217,3 @@ configured SOCKS proxy (Windows and Linux/GNOME/KDE are supported).
 
 ## Who Write?
 Me and Claude
-
-=======
-# stashcli
-Unlimited Storage? With Easy Access? stashcli
->>>>>>> 1d154355bca52357d00dea86f92f4d2098bb8ae7
