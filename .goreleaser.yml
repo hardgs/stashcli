@@ -2,7 +2,7 @@ project_name: stashcli
 
 builds:
   - env:
-      - CGO_ENABLED=1
+      - CGO_ENABLED=0        # <- set to 0 globally
     goos:
       - linux
       - windows
@@ -18,10 +18,8 @@ builds:
       - goos: darwin
         goarch: arm
       - goos: android
-        goarch: amd64   # <-- add this
-      # optionally, also skip android/386 if present
-      # - goos: android
-      #   goarch: 386
+        goarch: amd64       # skip android/amd64 because it needs CGO
+
 archives:
   - format: tar.gz
     format_overrides:
@@ -44,4 +42,4 @@ changelog:
 release:
   github:
     owner: hardgs
-    name: stashcli
+    name: stashcli          # no trailing dot
