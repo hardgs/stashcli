@@ -19,6 +19,7 @@ builds:
         goarch: arm
       - goos: android
         goarch: amd64       # skip android/amd64 because it needs CGO
+        goarch: arm
 
 archives:
   - format: tar.gz
