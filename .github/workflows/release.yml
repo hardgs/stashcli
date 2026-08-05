@@ -32,6 +32,6 @@ jobs:
         with:
           version: latest
           distribution: goreleaser
-          args: release --clean --debug --skip-validate -f .goreleaser
+          args: release --clean --debug --skip=validate -f .goreleaser.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
