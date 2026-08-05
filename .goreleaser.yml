@@ -17,7 +17,11 @@ builds:
         goarch: arm
       - goos: darwin
         goarch: arm
-
+      - goos: android
+        goarch: amd64   # <-- add this
+      # optionally, also skip android/386 if present
+      # - goos: android
+      #   goarch: 386
 archives:
   - format: tar.gz
     format_overrides:
